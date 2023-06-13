@@ -1,0 +1,28 @@
+.search-filter-input {
+    display: flex;
+    border: none;
+    font-size: 18px;
+    background: none;
+    color: #134696;
+    font-weight: bold;
+    max-width: 100%;
+  }
+  
+  .search-filter-input:focus {
+    outline: none;
+  }
+  .search-filter-input::placeholder {
+    color: #134696;
+  }
+  .custom-search-select {
+    display: flex;
+    flex: 1;
+    border: none;
+    font-size: 18px;
+    background: none;
+    color: #134696;
+  }
+  .custom-search-select:focus {
+    outline: none;
+  }
+  

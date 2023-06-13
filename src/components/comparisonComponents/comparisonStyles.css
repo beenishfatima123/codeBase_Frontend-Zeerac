@@ -1,0 +1,8 @@
+.slider-container {
+  position: relative;
+  width: 100% !important;
+}
+.slider-control-bottomcenter {
+  position: absolute;
+  bottom: -35px;
+}

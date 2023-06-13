@@ -1,0 +1,35 @@
+.gm-style .gm-style-iw-d {
+    overflow: hidden !important;
+}
+.gm-style .gm-style-iw-c{
+    padding: 0px !important;
+}
+
+  .bottom-fixed-map{
+    position: absolute;
+    bottom:0;
+    animation: 500ms ease;
+    left:0;right:0
+  }
+  .fixed-map{
+    position: fixed;
+    top:75px;
+    width: 392px !important;
+    animation: 500ms ease;
+    max-width: 40%;
+
+  }
+  #homeMap:focus-visible {
+    outline: none !important;
+}
+
+:focus-visible {
+  outline: none !important;
+  border: none !important;
+}
+@media screen and (max-width: 1000px) {
+    .sticky-map {
+       width:400px;
+    }
+  
+  }

@@ -1,0 +1,6 @@
+.hoverSvg {
+  transition: transform 0.2s;
+}
+.opacitySvg {
+  transition: opacity 0.5s;
+}

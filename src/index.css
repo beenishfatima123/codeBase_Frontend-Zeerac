@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: 'light';
+  scroll-behavior: smooth !important;
+  height: 100vh;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* width */
+*::-webkit-scrollbar {
+  width: 0.4em;
+  position: absolute;
+  left:0;
+  z-index: 0;
+}
+
+/* Track */
+*::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+
+}
+
+/* Handle */
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background-color: #134696;
+
+}
+@font-face {
+  font-family: 'light';
+  src: url('./assets/fonts/HelveticaLTStd-Light.otf');
+}
+@font-face {
+  font-family: 'medium';
+  src: url('./assets/fonts/HelveticaNeueLTStd-Roman.otf');
+}
+@font-face {
+  font-family: 'heavy';
+  src: url('./assets/fonts/HelveticaLTStd-Bold.otf');
+}
+
+input[type='file']::file-selector-button {
+  background-color: transparent;
+  color: transparent;
+  border: none;
+}

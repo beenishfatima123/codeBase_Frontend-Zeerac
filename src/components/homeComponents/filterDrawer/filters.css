@@ -1,0 +1,29 @@
+.location-input {
+  display: flex;
+  flex: 1;
+  border: none;
+  font-size: 14;
+  background: none;
+  color: white;
+}
+.location-input:focus {
+  outline: none;
+}
+.location-input::placeholder {
+  color: white;
+}
+
+.size-input {
+  display: flex;
+  border: none;
+  font-size: 14;
+  background: none;
+  color: #78797a;
+  width: 100%;
+}
+.size-input:focus {
+  outline: none;
+}
+.size-input::placeholder {
+  color: #78797a;
+}

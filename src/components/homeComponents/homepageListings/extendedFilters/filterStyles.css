@@ -1,0 +1,25 @@
+.filter-input {
+  display: flex;
+  border: none;
+  font-size: 14;
+  background: none;
+  color: #134696;
+}
+
+.filter-input:focus {
+  outline: none;
+}
+.filter-input::placeholder {
+  color: #134696;
+}
+.custom-select {
+  display: flex;
+  flex: 1;
+  border: none;
+  font-size: 18;
+  background: none;
+  color: #134696;
+}
+.custom-select:focus {
+  outline: none;
+}

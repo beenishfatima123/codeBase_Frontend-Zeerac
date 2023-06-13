@@ -1,0 +1,20 @@
+.slider-container {
+  position: relative;
+  width: 100% !important;
+}
+.slider-control-bottomcenter {
+  position: absolute;
+  bottom: 0px;
+}
+.slide {
+ width: 11.1111% !important;
+  flex: 1 1 0% !important;
+}
+.slide-current {
+ width: 11.1111% !important;
+  flex: 1 1 0% !important;
+}
+.slide-visible{
+ width: 11.1111% !important;
+  flex: 1 1 0% !important;
+}

@@ -1,0 +1,20 @@
+.filing {
+  height: 15px;
+  width: 2px;
+  transition: all 0.5s ease;
+  z-index: 5;
+}
+.filingText {
+  font-size: 17px;
+  font-family: Helvetica Neue LT Std;
+  margin: 0px;
+  cursor: pointer;
+  z-index: 10;
+  text-transform: uppercase;
+  min-width: max-content;
+  text-decoration: none;
+}
+.filingText:hover {
+  color: #134696;
+  font-weight: bold;
+}

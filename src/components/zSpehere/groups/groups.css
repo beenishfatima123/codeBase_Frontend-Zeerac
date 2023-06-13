@@ -1,0 +1,44 @@
+.group-input {
+    display: flex;
+    flex: 1;
+    border: 1px solid lightGray;
+    font-size: 14px;
+    background: none;
+    color: #000;
+    font-family: light;
+    border-radius: 5px;
+    padding:8px 16px;
+  }
+  .group-input:focus {
+    outline: none;
+  }
+  .group-input::placeholder {
+    color: #7d7d7d;
+    font-size: 14px;
+    font-family: light;
+  }
+
+  .group-select {
+    border: none;
+    width: 100%;
+    font-size: 14px;
+    color: #000;
+    font-family: medium;
+    border-radius: 5px;
+    padding:8px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .group-select:focus {
+    outline: none;
+  }
+  .select-items div,
+  .select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+  }
+  

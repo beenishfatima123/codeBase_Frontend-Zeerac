@@ -1,0 +1,30 @@
+.edit-input{
+    border: none;
+    font-size: 22px;
+    background: none;
+    font-family: medium;
+    max-width:200px;
+}
+.edit-input:focus {
+    outline: none;
+  }
+  .edit-input::placeholder {
+    color: #134696;
+    font-size: 22px;
+    font-family: medium;
+  }
+  .edit-input-handle{
+    border: none;
+    font-size: 16px;
+    background: none;
+    font-family: medium;
+    max-width:200px;
+}
+.edit-input-handle:focus {
+    outline: none;
+  }
+  .edit-input-handle::placeholder {
+    color: #134696;
+    font-size: 16px;
+    font-family: medium;
+  }

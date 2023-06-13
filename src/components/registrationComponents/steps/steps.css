@@ -1,0 +1,17 @@
+.login-input {
+  display: flex;
+  flex: 1;
+  border: none;
+  font-size: 12;
+  background: none;
+  color: #134696;
+  font-family: medium;
+}
+.login-input:focus {
+  outline: none;
+}
+.login-input::placeholder {
+  color: #7d7d7d;
+  font-size: 12;
+  font-family: medium;
+}

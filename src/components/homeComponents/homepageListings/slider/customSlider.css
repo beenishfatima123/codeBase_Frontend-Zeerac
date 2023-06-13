@@ -1,0 +1,38 @@
+.background-image {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 300px;
+}
+.slider-container {
+  position: relative;
+  width: 100% !important;
+}
+.dots-container-custom {
+
+  top: 25px !important;
+}
+.slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* 
+.slide-current {
+  width: 310px !important;
+  flex:none !important;
+}
+.slide-visible{
+  width: 310px !important;
+  flex:none !important;
+}
+.slider-list{
+  width: 310px !important;
+  align-items: center;
+  justify-content: center;
+} */
